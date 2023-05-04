@@ -5,6 +5,6 @@ import {CalculationModule} from './calculation/calculation.module';
 
 @Module({
   // TODO: move the MONGODB_URI to environment variable
-  imports: [MongooseModule.forRoot('mongodb://127.0.0.1:27017/calculator'), CalculationModule],
+  imports: [MongooseModule.forRoot('mongodb://mongodb:27017/calculator'), CalculationModule],
 })
 export class AppModule {}
