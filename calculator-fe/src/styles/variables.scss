@@ -1,0 +1,21 @@
+/* Responsive breakpoint */
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1920px;
+
+/* Color Palette */
+$backgroundAccentColor: #4c7161;
+$backgroundPrimaryColor: #404d5e;
+$backgroundSecondaryColor: #4c5c71;
+$typographyPrimaryColor: white;
+$typographySecondaryColor: gray;
+
+:root {
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}

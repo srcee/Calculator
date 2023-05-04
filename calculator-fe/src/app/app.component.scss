@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import "src/styles/variables.scss";
+
+.calculator-wrapper {
+  height: 100vh;
+  font-family: "Space Mono", serif;
+  background-color: $backgroundAccentColor;
+}

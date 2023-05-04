@@ -1,0 +1,3 @@
+<button type="button" class="keypad-button" ngClass="{{buttonConfig.isOperator && 'operator-button'}}"
+  (click)="onButtonClick(buttonConfig)" value={{buttonConfig.value}}>{{buttonConfig.title}}
+</button>

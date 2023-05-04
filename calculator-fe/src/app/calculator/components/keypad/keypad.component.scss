@@ -1,0 +1,16 @@
+@import "src/styles/variables.scss";
+
+.keypad {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: $backgroundPrimaryColor;
+
+  .medium {
+    grid-column: span 2;
+  }
+
+  .large {
+    grid-column: span 3;
+  }
+}
